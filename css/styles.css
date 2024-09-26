@@ -1,0 +1,20 @@
+*{
+    font-weight: 500;
+}
+
+section .box-card img{
+    transition: 0.3s ;
+    cursor: pointer;
+}
+section .box-card img:hover{
+    transform: scale(0.98, 0.98);
+    box-shadow: 0 0 10px gray;
+}
+footer .icon i{
+    transition: 0.3s;
+    opacity: 50%;
+    cursor: pointer;
+}
+footer .icon i:hover{
+    opacity: 100%;
+}
